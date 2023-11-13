@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: rgba(44, 218, 44, .8);
+    padding: 10px;
+}
+fieldset {
+    background-image: url(img/gugur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -150px 0;
+    box-shadow: 0 0 3px 5px rgba(19, 17, 17, 0.2);
+    background-color: aliceblue;
+    position: relative;
+    width: 450px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 40px;
+}
+legend {
+    margin-left: 20px;
+    color: black;
+}
+.container fieldset form table tr td img {
+    position: absolute;
+    left: 180px;
+    top: 23px;
+}
+.container fieldset form table tr td button {
+    padding : 5px;
+    border-radius: 7px;
+    margin-right: 5px;
+    box-shadow: 5px 5px 5px rgba(19, 17, 17, 0.6);
+}
+.container fieldset form table tr td button : hover {
+    
+}
+.container fieldset form table tr td #simpan {
+    background-color: rgb(13, 99, 179);
+}
+.container fieldset form table tr td #reset {
+    background-color: rgb(13, 156, 13);
+    padding-left: 10px;
+    padding-right: 10px;
+}

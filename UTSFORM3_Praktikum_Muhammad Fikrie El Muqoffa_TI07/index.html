@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <fieldset >
+            <legend><strong>Daftarkan Alumni</strong></legend>
+            <form>
+                <table>
+                    <tr>
+                        <td>Cari Nama Alumni</td>
+                        <td width="30px" style="text-align: right;">:</td>
+                        <td><img src="img/searchp.png" width="15px" alt="Search"><input type="search" placeholder="search" style="height: 30px; margin-left: 10px; border-radius: 50px; text-indent: 30px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Program Studi</td>
+                        <td width="30px" style="text-align: right;">:</td>
+                        <td>
+                            <select name="Prodi" id="prodi" style="height: 30px; margin-left: 10px;">
+                                <option value="Sistem Operasi">Sistem Operasi</option>
+                                <option value="Teknik Informatika">Teknik Informatika</option>
+                                <option value="Bisnis Digital">Bisnis Digital</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tahun Masuk</td>
+                        <td width="30px" style="text-align: right;">:</td>
+                        <td><input type="date" style="height: 30px; margin-left: 10px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Tahun Lulus</td>
+                        <td width="30px" style="text-align: right;">:</td>
+                        <td><input type="date" style="height: 30px; margin-left: 10px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat Linkedln</td>
+                        <td width="30px" style="text-align: right;">:</td>
+                        <td><input type="text" style="height: 30px; margin-left: 10px; width: 225px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Pekerjaan</td>
+                        <td width="30px" style="text-align: right;">:</td>
+                        <td><input type="text" style="height: 30px; margin-left: 10px; width: 225px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat Kantor</td>
+                        <td width="30px" style="text-align: right;">:</td>
+                        <td><textarea name="alamat kantor" id="alamatkantor" cols="30" rows="5" style="margin-left: 10px;"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Pengurus Alumni</td>
+                        <td width="30px" style="text-align: right;">:</td>
+                        <td>
+                            <input type="radio" name="sayapengurus" >
+                            <label for="sayapengurus">Ya</label>
+                            <input type="radio" name="sayapengurus">
+                            <label for="bukanpengurus">Tidak</label>                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="text-align: center;">
+                            <button type="submit" id="simpan">Simpan</button>
+                            <button type="reset" id="reset">Reset</button>
+                        </td>
+                        <!-- <td></td> -->
+                        <!-- <td></td> -->
+                    </tr>
+
+                    
+                </table>
+            </form>
+
+        </fieldset>
+    </div>
+    
+</body>
+</html>
